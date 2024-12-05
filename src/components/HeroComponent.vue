@@ -1,12 +1,16 @@
 <template>
   <div class="flex lg:flex-row flex-col-reverse justify-between align-middle items-center my-16">
-    <h1 class="lg:text-7xl text-4xl mt-4 lg:mt-0">
-      Desenvolvedor
-      <br />
-      <strong>Front-End</strong> &
-      <br />
-      UX/UI <strong> Designer</strong>
-    </h1>
+    <div>
+      <h1 class="lg:text-7xl text-4xl py-4 mt-4 lg:mt-0">
+        <strong> Desenvolvedor </strong> &
+        <br />
+        UX/UI <strong> Designer</strong>
+      </h1>
+      <ul class="mt-2 flex gap-4">
+        <li>LinkedIn</li>
+        <li>GitHub</li>
+      </ul>
+    </div>
     <img :src="photo" alt="Foto Alexandre Marques" width="265" />
   </div>
 </template>

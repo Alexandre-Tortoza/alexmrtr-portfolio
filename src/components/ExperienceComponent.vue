@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col md:flex-row gap-8 p-8 container_width">
+  <div class="flex flex-col md:flex-row gap-8 p-8 py-16 container_width">
     <div class="text-4xl md:text-6xl uppercase leading-tight">
       <h2>expe<br />riên <br />cia</h2>
     </div>

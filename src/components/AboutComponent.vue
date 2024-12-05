@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col md:flex-row items-start gap-8 p-8 my-8">
+  <div class="flex flex-col md:flex-row items-start gap-8 p-8 py-16 my-8">
     <!-- Título -->
     <div class="text-4xl md:text-6xl uppercase leading-tight">
       <h2>sobre<br />mim</h2>

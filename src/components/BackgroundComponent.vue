@@ -1,5 +1,5 @@
 <template>
-  <div class="flex lg:flex-row flex-col-reverse md:flex-row gap-8 p-8 container_width">
+  <div class="flex lg:flex-row flex-col-reverse md:flex-row gap-8 p-8 py-16">
     <div class="flex flex-col gap-6 w-full">
       <div
         class="flex flex-col p-6 rounded-lg shadow-sm w-full lg:w-2/3"
