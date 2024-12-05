@@ -11,17 +11,24 @@
         v-for="(experience, index) in experiences"
         :key="index"
       >
-        <div class="flex items-center justify-between">
+        <div class="items-center justify-between hidden lg:flex">
           <div>
             <h3 class="text-xl font-bold">{{ experience.comapnyName }}</h3>
             <small class="text-sm">{{ experience.period }}</small>
           </div>
           <span class="font-semibold">{{ experience.position }}</span>
         </div>
+        <div class="block lg:hidden">
+          <h3 class="text-xl font-bold">{{ experience.comapnyName }}</h3>
+          <small class="font-medium">{{ experience.position }}</small>
+          <br />
+          <small class="text-sm"> {{ experience.period }}</small>
+        </div>
+
         <p class="mt-4 leading-7">
           {{ experience.content }}
         </p>
-        <div class="flex gap-2 mt-4">
+        <div class="flex flex-wrap gap-2 mt-4">
           <span
             v-for="(stacks, index) in experience.stacks"
             :key="index"

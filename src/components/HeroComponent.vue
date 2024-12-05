@@ -1,13 +1,13 @@
 <template>
-  <div class="flex justify-between align-middle items-center my-16">
-    <h1>
+  <div class="flex lg:flex-row flex-col-reverse justify-between align-middle items-center my-16">
+    <h1 class="lg:text-7xl text-4xl mt-4 lg:mt-0">
       Desenvolvedor
       <br />
       <strong>Front-End</strong> &
       <br />
       UX/UI <strong> Designer</strong>
     </h1>
-    <img :src="photo" alt="Foto Alexandre Marques" width="365" />
+    <img :src="photo" alt="Foto Alexandre Marques" width="265" />
   </div>
 </template>
 
@@ -16,7 +16,6 @@ import photo from '@/assets/images/alexmrtr_photo.png'
 </script>
 <style scoped>
 h1 {
-  font-size: 4.5rem;
   font-weight: 500;
   background: linear-gradient(
     45deg,
