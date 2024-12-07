@@ -1,6 +1,5 @@
 <template>
   <main>
-    <SepareatorComponent :starPosition="0.8" />
     <div class="container_width">
       <HeroComponent />
     </div>
