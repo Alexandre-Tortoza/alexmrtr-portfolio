@@ -29,7 +29,7 @@
         </div>
 
         <!-- Menu mobile -->
-        <div class="elemento fixed top-0 right-0 w-3/5 h-full pt-24" :class="menuAnimation">
+        <div class="elemento fixed top-0 right-0 w-3/5 h-fit pt-24" :class="menuAnimation">
           <div v-if="modalView" class="p-4">
             <ul class="flex flex-col gap-8">
               <li><a href="#sobre" @click="callMenu">Sobre</a></li>
@@ -85,7 +85,9 @@ a:hover {
   transform: translateX(100%);
   transition: transform 0.5s ease-in-out;
   background-color: #030405fa;
-  z-index: 10;
+  z-index: 999999999999;
+  height: 100vh;
+  position: absolute;
 }
 
 .elemento.in {
