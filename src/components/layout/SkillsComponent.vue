@@ -1,12 +1,10 @@
 <template>
-  <div class="flex flex-col md:flex-row items-start gap-8 p-8 py-16 my-8">
-    <!-- Título -->
+  <div class="flex flex-col md:flex-row items-start gap-8 p-8 py-16 my-8 justify-between">
     <div class="text-4xl md:text-6xl uppercase leading-tight">
       <h2>Skills</h2>
     </div>
 
-    <!-- Descrição -->
-    <div class="text-base md:text-lg leading-relaxed w-2/5 m-auto">
+    <div class="text-base md:text-lg leading-relaxed lg:w-2/5">
       <h4 class="font-medium">Principais Skills</h4>
       <br />
       <h6 class="font-normal">Front-End</h6>
@@ -68,7 +66,7 @@
           <img src="@/assets/icons/prisma.svg" alt="prisma" width="40" class="self-center mr-4" />
         </li>
       </ul>
-      <h6 class="font-normal mt-4">Tambem conheço</h6>
+      <h6 class="font-normal mt-4">Tambem Conheço</h6>
       <ul class="flex gap-2 mt-2">
         <li>
           <img src="@/assets/icons/react.svg" alt="react" width="40" class="self-center mr-4" />
