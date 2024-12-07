@@ -8,13 +8,15 @@
     <!-- Descrição -->
     <div class="text-base md:text-lg leading-relaxed" style="">
       <p>
-        Sou um desenvolvedor Front-End apaixonado por cafés e jogos. Minha jornada na programação
-        começou em 2021, quando eu criava landing pages e pequenos sites. Hoje em dia, trabalho no
-        desenvolvimento de Sistemas nacionais e internacionais. Desde 2022, estou cursando Ciência
-        da Computação na PUC-PR, onde tive a oportunidade de participar de vários projetos
-        acadêmicos e freelances, principalmente nas áreas de educação e gestão. Nessas iniciativas,
-        desenvolvi e projetei um sistema de ensino e um sistema de gestão para uma empresa de
-        recreação infantil, sempre buscando criar soluções personalizadas, únicas e intuitivas.
+        Sou o Alexandre, um <strong>desenvolvedor</strong> Apaixonado e sempre em busca de aprimorar
+        minhas habilidades. Comecei criando Sites simples em 2021 e hoje já enfrento desafios
+        <strong>nacionais</strong> e <strong>internacionais</strong>. Enquanto curso Ciência da
+        Computação na PUC-PR, mergulho em projetos que vão de
+        <strong>sistemas de ensino</strong> personalizados a ferramentas de gestão, tudo para tornar
+        a experiência do usuário mais dinâmica e envolvente. Atualmente, trabalho na Bwise
+        Contabilidade, colaborando na criação de plataformas de gestão e sistemas internos, usando
+        <strong>Vue3</strong>, <strong>C#</strong> e um toque de <strong>criatividade</strong> para
+        dar vida às interfaces e deixar a interação mais leve, humana.
       </p>
     </div>
   </div>
@@ -26,5 +28,9 @@ h2 {
 }
 p {
   color: #c2d1d4;
+}
+strong {
+  font-weight: 700;
+  color: #d4e0e2;
 }
 </style>

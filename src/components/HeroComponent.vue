@@ -11,10 +11,14 @@
       </h1>
       <ul class="mt-8 flex gap-8">
         <li class="sub_links">
-          <img src="@/assets/icons/linkedin.svg" alt="Linkedin " width="40" />
+          <a href="https://www.linkedin.com/in/alexmrqr/" target="_blank">
+            <img src="@/assets/icons/linkedin.svg" alt="Linkedin " width="40" />
+          </a>
         </li>
         <li class="sub_links">
-          <img src="@/assets/icons/github.svg" alt="Github" width="40" />
+          <a href="https://github.com/Alexandre-Tortoza" target="_blank">
+            <img src="@/assets/icons/github.svg" alt="Github" width="40" />
+          </a>
         </li>
       </ul>
     </div>
