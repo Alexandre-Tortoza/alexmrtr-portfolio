@@ -8,15 +8,17 @@
     <!-- Descrição -->
     <div class="text-base md:text-lg leading-relaxed" style="">
       <p>
-        Sou o Alexandre, um <strong>desenvolvedor</strong> Apaixonado e sempre em busca de aprimorar
-        minhas habilidades. Comecei criando Sites simples em 2021 e hoje já enfrento desafios
-        <strong>nacionais</strong> e <strong>internacionais</strong>. Enquanto curso Ciência da
-        Computação na PUC-PR, mergulho em projetos que vão de
-        <strong>sistemas de ensino</strong> personalizados a ferramentas de gestão, tudo para tornar
-        a experiência do usuário mais dinâmica e envolvente. Atualmente, trabalho na Bwise
-        Contabilidade, colaborando na criação de plataformas de gestão e sistemas internos, usando
-        <strong>Vue3</strong>, <strong>C#</strong> e um toque de <strong>criatividade</strong> para
-        dar vida às interfaces e deixar a interação mais leve, humana.
+        Olá, me chamo Alexandre. Sou um <strong>desenvolvedor</strong> e
+        <strong>designer</strong> apaixonado, sempre em busca de evoluir. Comecei criando sites
+        simples em 2021 e hoje já enfrento desafios <strong>nacionais</strong> e
+        <strong>internacionais</strong>. Enquanto curso Ciência da Computação na PUC-PR, mergulho em
+        projetos freelance ou acadêmicos que vão de
+        <strong>sistemas de ensino</strong> personalizados a ferramentas de gestão, sempre unindo
+        técnicas de design e desenvolvimento para tornar a experiência do usuário mais dinâmica e
+        agradável. Atualmente, trabalho na Bwise Contabilidade, colaborando na criação de
+        plataformas e sistemas internos, usando <strong>Vue3</strong>, <strong>C#</strong> e
+        conceitos de <strong>UI/UX</strong> para dar vida às interfaces, garantindo usabilidade,
+        performance e um visual cativante.
       </p>
     </div>
   </div>

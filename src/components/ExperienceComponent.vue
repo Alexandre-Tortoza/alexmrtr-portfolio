@@ -25,9 +25,11 @@
           <small class="text-sm"> {{ experience.period }}</small>
         </div>
 
-        <p class="mt-4 leading-7">
-          {{ experience.content }}
-        </p>
+        <p class="mt-4 leading-7">{{ experience.content }}</p>
+        <ul class="my-4">
+          <li v-for="(li, index) in experience.list" :key="index" class="my-2">{{ li }}</li>
+        </ul>
+
         <div class="flex flex-wrap gap-2 mt-4">
           <span
             v-for="(stacks, index) in experience.stacks"
@@ -51,7 +53,13 @@ const experiences = ref([
     position: 'Desenvolvedor Front-End',
     stacks: ['Vue.js', 'JavaScript', 'HTML', 'CSS', 'API', 'Bootstrap 5'],
     content:
-      'esenvolvimento da plataforma principal, garantindo uma experiência de usuário eficiente e intuitiva. Implementação de melhorias contínuas e integrações para aprimorar a funcionalidade e a performance da plataforma. Utilização de tecnologias como Vue3, .NET, Vue, SQL Server, HTML e CSS para construir soluções robustas e escaláveis.',
+      'Atuo no desenvolvimento do front-end das plataformas da empresa e também dos sistemas internos, realizando o design das telas, sua codificação e manutenção.',
+    list: [
+      'Desenvolvimento em Vue3',
+      'Consumo de APIs REST full',
+      'Design de Interfaces',
+      'Arquitetura Limpa',
+    ],
   },
   {
     comapnyName: 'Apoiar - Serviços Administrativos',
@@ -59,7 +67,12 @@ const experiences = ref([
     position: 'Estágio',
     stacks: ['React', 'JavaScript', 'HTML', 'CSS', 'PHP', 'Bootstrap 5', 'WordPress'],
     content:
-      'Monitoramento e acompanhamento ativo do desenvolvimento de softwares e programas, garantindo aderência aos objetivos e prazos estabelecidos. Participação na identificação e resolução de falhas no sistema, colaborando com a equipe para garantir a integridade e o desempenho do software. Contribuição no processo de desenvolvimento de software, incluindo a implementação de soluções de automação, escrita de código limpo e eficiente, e realização de testes rigorosos para assegurar a qualidade do produto final.',
+      'Enquanto estágiva na apoiar nos prestavos serviço para empresas como Ennet e CPS, Trabalhei na concpção na codificação de landinpages e na manutenção dos sites em WordPress, tambem trabalhei em um sistema de ensino, criado em react, projeto em que  desenvolvi telas',
+    list: [
+      'Envolvimento de páginas em React',
+      'Criação de landing pages',
+      'Manutenção em Wordpress',
+    ],
   },
 ])
 </script>
@@ -71,10 +84,19 @@ h2 {
 h3,
 span,
 p,
+li,
 small {
   color: #000708;
 }
 /* p {
   color: red;
 } */
+
+ul {
+  margin-left: 1rem;
+}
+
+li {
+  list-style: disc;
+}
 </style>
