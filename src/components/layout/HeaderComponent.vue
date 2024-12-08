@@ -24,7 +24,7 @@
         </ul>
 
         <!-- Ícone menu mobile -->
-        <div @click="callMenu" class="block lg:hidden relative z-50" style="z-index: 9999">
+        <div @click="callMenu" class="block lg:hidden relative z-50">
           <img width="40" src="@/assets/icons/menu.svg" alt="" />
         </div>
 
@@ -85,7 +85,7 @@ a:hover {
   transform: translateX(100%);
   transition: transform 0.5s ease-in-out;
   background-color: #030405fa;
-  z-index: 99;
+  z-index: 999999999999;
   height: 100vh;
   position: absolute;
 }
@@ -104,7 +104,7 @@ a:hover {
     width: 100vw;
     backdrop-filter: blur(10px);
     background: #08090df3;
-    z-index: 99;
+    z-index: 9999;
   }
 }
 </style>

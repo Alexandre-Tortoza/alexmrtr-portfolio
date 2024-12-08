@@ -69,7 +69,7 @@ const experiences = ref([
     content:
       'Enquanto estágiva na apoiar nos prestavos serviço para empresas como Ennet e CPS, Trabalhei na concpção na codificação de landinpages e na manutenção dos sites em WordPress, tambem trabalhei em um sistema de ensino, criado em react, projeto em que  desenvolvi telas',
     list: [
-      'Envolvimento de páginas em React',
+      'Desenvolvimento de páginas em React',
       'Criação de landing pages',
       'Manutenção em Wordpress',
     ],
