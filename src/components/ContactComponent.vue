@@ -12,7 +12,7 @@
       <ul class="flex flex-col justify-center align-middle content-center gap-2">
         <li class="flex gap-4 items-center">
           <img src="@/assets/icons/phone.svg" alt="" width="25" />
-          <a href="tek:41992081308" target="_blank">(41) 99208-1308</a>
+          <a href="tel:41992081308" target="_blank">(41) 99208-1308</a>
         </li>
         <li class="flex gap-4 items-center">
           <img src="@/assets/icons/mail.svg" alt="" width="25" />

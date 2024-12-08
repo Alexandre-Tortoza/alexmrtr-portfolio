@@ -3,16 +3,18 @@
     <header
       class="flex justify-between align-middle content-center items-center py-6 px-6 lg:px-0 lg:top-0"
     >
-      <img
-        class="hidden lg:block"
-        src="@/assets/logo/logo_alexmrtr-alt.svg"
-        alt="Alexandre Marques"
-      />
-      <img
-        class="block lg:hidden"
-        src="@/assets/logo/logoMobile_alexmrtr-alt.svg"
-        alt="Alexandre Marques"
-      />
+      <a href="/">
+        <img
+          class="hidden lg:block"
+          src="@/assets/logo/logo_alexmrtr-alt.svg"
+          alt="Alexandre Marques"
+        />
+        <img
+          class="block lg:hidden"
+          src="@/assets/logo/logoMobile_alexmrtr-alt.svg"
+          alt="Alexandre Marques"
+        />
+      </a>
 
       <nav>
         <!-- Menu desktop -->
